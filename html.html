@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>experiment no 6</title>
+</head>
+
+
+<body>
+  <header>
+   <nav>
+    <a class="home" href="html.html">Home</a>
+    <a class="about"href="html.html">About</a>
+    <a class="contact" href="#search">Search</a>
+    <a class="log" href="#login">login/register</a>
+    <a class="logo" href="#">Hanbada</a>
+   </nav>
+   </header>
+
+
+   <div class="flexboxcontainer">
+    <div class="fbox1">
+      Benefits of the online recruitment
+      <div class="animationArea">
+       <div><div>Dynamic content</div></div>
+       <div><div>Time-saving</div></div>
+       <div><div>Minimized hiring cost</div></div>
+      </div>
+    </div>
+   <div class="fbox2">
+    <img src="1st img.svg" alt="">
+   </div>
+  </div>
+  
+  <div class="button">
+    <button class="lbutton "><a href="#login" class="a1">login</a></button>
+    <button class="rbutton">  <a href="#register" class="a1">register</a> </button>
+  </div>
+
+
+
+<div class="page2box">
+  <div class="img2"><img  src="2nd img.svg" alt=""></div>
+  <div class="imgdata"><p>
+    The traditional methods of recruitment require far too much paperwork 
+    and time. Consequently, from the job posting to the employment,
+     e-recruitment could be the solution to streamline the entire process.
+      In fact, time and resources can be relocated for prioritizing the 
+      development of talent and strengthening your employees’ morale. Having
+       the right tools and implementing an e-recruitment software could save cost, 
+       time and attract specialists, who would drive more growth and 
+       productivity into the company. Learn why in this top 10 benefits of e-recruitment:
+  </p></div> 
+</div>
+
+
+<h1 id="search">Candidate Search</h1> 
+<div><img class="img3" src="3rd img.jpeg" alt="">
+
+<div id="search-form" >
+  <label for="location">Location:</label>
+  <input type="text" id="location">
+  
+  <label for="job-role">Job Role:</label>
+  <input type="text" id="job-role">
+  
+  <button >Search</button>
+</div>
+
+<div id="search-results">
+  <h2>Search Results</h2>
+  <ul id="results-list"></ul>
+</div>
+</div>
+
+
+
+
+
+<div id="login" class="container">
+  <form action="login.php" method="POST">
+    <h2>Login to Your Company Account</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+  </form>
+</div>
+
+
+<div  id="register" class="container">
+  <form action="register.php" method="POST">
+    <h2>Create a New Company Account</h2>
+    <label for="company_name">Company Name:</label>
+    <input type="text" id="company_name" name="company_name" required>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="confirm_password">Confirm Password:</label>
+    <input type="password" id="confirm_password" name="confirm_password" required>
+
+    <button type="submit">Register</button>
+  </form>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
